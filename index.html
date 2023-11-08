@@ -2,25 +2,37 @@
 <html>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
-    <title>Full </title>
+    <title>Full</title>
 </head>
 <body>
     <h1>Items List</h1>
-    <ul id="itemList"></ul>
     <!-- Define the HTML template -->
-    <template id="item-template">
         <div class="w3-card" style="width:70%">
             <header class="w3-container w3-light-grey">
-            <name></name> 
+            <h1>Group Name</h1>
             </header>
             <div class="w3-container">
-              <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-              <description></description>
+              
+            <ul id="itemList">
+              <template id="item-template">
+                <div class="w3-row">
+                    <div class="w3-container w3-twothird">
+                        <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+                        <h2><name></name></h2>
+                    </div>
+                    <div class="w3-container w3-third">
+                        <h3><description></description></h3>
+                    </div>
+                  </div>
+                <br>
+               </ul>
+               </template>
+
             </div>
             <button class="w3-button w3-block w3-dark-grey">+ Connect</button>
           </div>
         <br>
-    </template>
+ 
     <script src="app.js"></script>
 </body>
 </html>
