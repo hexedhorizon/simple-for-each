@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
     <title>JSON Display App</title>
 </head>
@@ -7,10 +8,26 @@
     <h1>Items List</h1>
     <ul id="itemList"></ul>
 
+    
     <!-- Define the HTML template -->
     <template id="item-template">
-        <li><strong></strong> <span></span></li>
+
+        <div class="w3-card-4" style="width:70%">
+            <header class="w3-container w3-light-grey">
+            <strong></strong> 
+            </header>
+            <div class="w3-container">
+              <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+              <span></span>
+            </div>
+            <button class="w3-button w3-block w3-dark-grey">+ Connect</button>
+          </div>
+        <br>
     </template>
+
+   
+
+
 
     <script src="app.js"></script>
 </body>
