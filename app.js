@@ -11,8 +11,8 @@ function createItemList() {
             data.forEach(function(item) {
                 // Clone the template content and populate it with data
                 const listItem = document.importNode(template.content, true);
-                listItem.querySelector('strong').textContent = item.name;
-                listItem.querySelector('span').textContent = item.description;
+                listItem.querySelector('name').textContent = item.name;
+                listItem.querySelector('description').textContent = item.description;
                 itemList.appendChild(listItem);
             });
         })
