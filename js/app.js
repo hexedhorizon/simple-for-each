@@ -4,7 +4,7 @@ function createItemList() {
     const template = document.getElementById("item-template");
 
     // Fetch the JSON data from the external file
-    fetch('data.json')
+    fetch('../api/data.json')
         .then(response => response.json())
         .then(data => {
             // Loop through the JSON data
