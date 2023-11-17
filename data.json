@@ -1,13 +1,13 @@
 [
     { 
-      "id": 1,
-      "name": "Group Member 1",
-      "description": "Description 1" 
+        "id": 1,
+        "name": "Cliff Evangelio",
+        "description": "Developer" 
     },
     { 
         "id": 2, 
-        "name": "Group Member 2", 
-        "description": "Description 2" },
+        "name": "Maximan", 
+        "description": "Buddy" },
     { 
         "id": 3, 
         "name": "Group Member 3", 
